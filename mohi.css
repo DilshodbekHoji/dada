@@ -87,87 +87,35 @@ a {
 
 /* heder end*/
 /* section 1 */
-.section1{
-   display: flex;
-   flex-direction: row;
+.car .car1 {
+  display: flex;
+position: relative;
+
+
 }
-.menu {
-   display: flex;
-  background-image: url("./img/slider-01-1920x1050\ \(6\).jpg");
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  top: 0%;
+.text1{
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding: 0rem 10rem ;
+   top: 50%;
+   transition: 5s;
 }
-.menu {
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction:column;
-   text-align: center;
-   color: white;
-   padding-left: 5rem;
-   padding-right: 5rem;
-   padding-top: 40rem;
-   /* transition: 5s;
-   transform:translatey(-100) */
-
- }
- .menu span{
-   font-size: 6rem;
-   width: 900;
-   font-style:italic;
-   line-height: 0.9;
-   letter-spacing: -0.01em;
-    font-family: inherit;
-    position: relative;
-
- }
- .clik {
-   display: flex;
-   display: block;
-   width: 5rem;
-   z-index: 8888;
-   padding-top: 20rem;
-   padding-left: 2rem;
-   position: absolute;
-
- }
- .unclik {
-   /* display: flex;
-   display: block; */
-   width: 5rem;
-   z-index: 8888;
-   padding-top: 20rem;
-   padding-left: 80rem;
-   position: absolute;
-
- }
- .clik button{
-   width: 3rem;
-   height: 3rem;
-   background-color: grey;
-   text-decoration: none;
-   border: none;
-
- }
-
- .unclik button{
-   width: 3rem;
-   height: 3rem;
-   background-color: grey;
-   text-decoration: none;
-   border: none;
- 
+.text1:hover{
+  font-size: 10rem;
+}
+ .text1 span{
+  font-size: 2em;
+  font-weight:  100;
+}
+.text1 h2{
+  font-size: 3em ;
+}
+.text1 p{
+  font-size: 0.5em;
 }
 
- .menu h2{
-   font-size: 8rem;
-   width: 100;
-   line-height: 0.9;
-   letter-spacing: 0.04em;
-  }
- .menu .text{
-   transition: 1s;
-   transform:translateY(-80%);
- }
+
+
