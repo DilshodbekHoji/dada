@@ -18,6 +18,7 @@ body{
 .heder {
    width: 100%;
    background-color:rgba(100, 98, 98, 0.603) ;
+   border-bottom: 0.1rem solid white;
    display: flex;
    align-items: center;
    justify-content:space-between;
@@ -26,6 +27,7 @@ body{
    padding-right: 2rem;
    z-index: 9999;
    position:fixed;
+
 }
 .heder .logo{
    width: 13rem;
@@ -93,29 +95,210 @@ position: relative;
 
 
 }
-.text1{
+ .text1{
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 900;
   color: white;
   position: absolute;
   text-align: center;
-  padding: 0rem 10rem ;
-   top: 50%;
-   transition: 5s;
+  top:  30%;
+  padding: 0rem 10rem;
+  letter-spacing: 0.1rem;
+  line-height: 1rem;
+  
+   
+   
+
 }
-.text1:hover{
-  font-size: 10rem;
-}
- .text1 span{
-  font-size: 2em;
+  .text1 span{
+  font-size: 4em;
   font-weight:  100;
 }
 .text1 h2{
-  font-size: 3em ;
+  font-size: 3.5em ;
+  font-weight: 800;
 }
 .text1 p{
   font-size: 0.5em;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+/* SECTION1 end */
+/* section 2 */
+.section2{
+  background-color: rgb(37, 36, 36);
+  width: 100%;
+  height: 49rem;
+}
+.section2 .text3{
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+   text-align: center;
+  
+  padding: 10rem 10rem;
+  letter-spacing: 0.05rem;
+  line-height: 2.5rem;
+}
+.text3 h2{
+  font-size: 3.5em ;
+  font-weight: 800;
+
+}
+.text3 span{
+  font-size: 4em;
+  font-weight:  100;
+ 
+}
+.text3 p{
+  font-size: 0.6em;
+  font-weight: 100;
+  line-height: 1.5em;
+  color: rgb(197, 194, 194);
+  padding-top: 3rem;
+
+}
+.text3 button{
+  border-style: none;
+  width: 13rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: rgb(253, 40, 40) ;
+  color: white;
+  margin-top: 3rem;
+
+}
+.text3 button:hover{
+  background-color: rgb(37, 36, 36) ;
+  transition:ease-out .6s;
+}
+
+/* section2 end */
+/* section3 */
+.section3{
+  display: flex;
+  position: relative;
+  }
+.section3 img{
+  transform: translate(-8rem)
+}
+.section3 .text4{
+  color: white;
+  background-color:rgb(250, 50, 50) ;
+  width: 50%;
+  height: 44.4rem;
+  position: absolute;
+  margin-left: 50%;
+  text-align: center;
+  padding-top: 10%;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+}
+.text4 h2{
+  font-size: 6em ;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: 0.2rem;
+
+
+}
+.text4 span{
+  font-size: 6em;
+  font-weight: 100;
+ 
+}
+.text4 p{
+  font-size: 1.1em;
+  font-weight: 100;
+  line-height: 1.5em;
+  color: rgb(197, 194, 194);
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+.text4 button{
+  border-style: none;
+  width: 14rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: white ;
+  color: rgb(12, 11, 11);
+  margin-top: 3rem;
+
+}
+.text4 button:hover{
+  background-color: rgb(63, 62, 62)  ;
+  transition:ease-out .6s;
+  color: white;
+
 }
 
 
+/* section3 end */
+.section4 {
+  display: flex;
+  position: relative;
+}
+
+.section4 img{
+  margin-left: 35%;
+  }
+  
+
+
+.section4 .text5{
+  color: white;
+  background-color:rgb(70, 67, 67) ;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  padding-top: 10%;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+ 
+}
+.text5 h2{
+  font-size: 6em ;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: 0.2rem;
+
+
+}
+.text5 span{
+  font-size: 6em;
+  font-weight: 100;
+ 
+}
+.text5 p{
+  font-size: 1.1em;
+  font-weight: 100;
+  line-height: 1.5em;
+  color: rgb(197, 194, 194);
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+.text5 button{
+  border-style: none;
+  width: 14rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: rgb(138, 132, 132) ;
+  color: white;
+  margin-top: 3rem;
+
+}
+.text5 button:hover{
+  background-color: rgb(250, 57, 57)  ;
+  transition:ease-out .6s;
+  color: white;
+
+}
 
