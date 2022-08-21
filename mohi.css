@@ -246,7 +246,7 @@ position: relative;
 }
 
 .section4 img{
-  margin-left: 35%;
+  margin-left: 28.8%;
   }
   
 
@@ -299,7 +299,7 @@ position: relative;
 }
 .text5 button:hover{
   background-color: rgb(250, 57, 57)  ;
-  transition:ease-out .6s;
+  transition: .6s;
   color: white;
 
 }
@@ -377,3 +377,77 @@ position: relative;
 
 
 /* section5 end */
+/* section6 */
+.section6{
+  width: 100%;
+  background-image: url(./img/home-03-1920x1200\ \(3\).jpg);
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.section6 img{
+padding-left: 2rem;
+  width: 15rem;
+  color: white;
+ }
+ .section6 img:hover{
+  cursor:pointer;
+ }
+
+.section6 .ours{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section6 .ours .ouress{
+  font-size: 6rem;
+  font-weight: 900;
+}
+.section6 .ours .advans{
+  font-size: 6rem;
+  font-weight: 100;
+
+}
+.section6 .BLOK{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+ }
+.section6 .blok1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+
+}
+.section6 .blok1 .alls{
+    text-align: center;
+   width: 20rem;
+   height: 13rem;
+   background-color: rgb(247, 27, 27);
+   gap: 2rem;
+}
+.section6 .blok1 .alls:hover{
+  background-color: rgb(102, 99, 99);
+}
+
+.section6 .blok1 a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+.section6 .blok1 a:hover{
+  color: rgb(248, 31, 31);
+  transition: 0.5s;
+}
+
