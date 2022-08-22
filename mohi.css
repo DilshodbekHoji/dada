@@ -431,14 +431,16 @@ padding-left: 2rem;
 
 }
 .section6 .blok1 .alls{
+  color: white;
     text-align: center;
    width: 20rem;
    height: 13rem;
-   background-color: rgb(247, 27, 27);
+   background-color: rgb(247, 55, 55);
    gap: 2rem;
+   transition: 0.5S;
 }
 .section6 .blok1 .alls:hover{
-  background-color: rgb(102, 99, 99);
+  background-color: rgba(102, 99, 99, 0.534);
 }
 
 .section6 .blok1 a{
