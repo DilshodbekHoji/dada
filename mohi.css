@@ -17,7 +17,7 @@ body{
 /* heder */
 .heder {
    width: 100%;
-   background-color:rgba(100, 98, 98, 0.603) ;
+   background-color:rgba(20, 20, 20, 0.747) ;
    border-bottom: 0.1rem solid white;
    display: flex;
    align-items: center;
@@ -452,4 +452,81 @@ padding-left: 2rem;
   color: rgb(248, 31, 31);
   transition: 0.5s;
 }
+/* section6end */
+/* section7 */
+.section7 {
+  width: 100%;
+  
+background-color: rgba(49, 49, 49, 0.459);
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+text-align: center;
+padding: 5rem;
+line-height: 3rem;
+list-style: 1rem;
+}
+.section7 .what{
+  color: white;
+  font-size: 5rem;
+  font-weight: 100;
+  font-style: oblique;
+  margin-left: 35%;
+  margin-right: 50%;
+}
+.section7 .text123{
+  text-align: center;
+  margin-left: 15rem;
+}
+.section7 .name1{
+   font-size: 2rem;
+  color: white;
+  line-height: 2rem;
+  font-style: italic;
+}
+.section7 .say1{
+  text-align: center;
+   color: white;
+  font-size: 1rem;
+  font-weight: 100;
+   line-height: 1rem;
+  width: 40rem;
+ 
+}
 
+.section7 .client{
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  font-style: oblique;
+ }
+.section7 .boll{
+  padding: 5rem;
+  width: 35rem;
+}
+.section7 .boll img{
+  border-radius: 50%;
+  margin-left: 80%;
+  border: solid 1rem white;
+}
+/* section7 end */
+/* footer */
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   width: 100%;
+  background-image: url(./img/home-03-1920x1200\ \(3\).jpg);
+
+}
+.footer .advans{
+  font-size: 5rem;
+  color: white;
+}
+.footer .ouress{
+  font-size: 5rem;
+  color: white;
+ 
+}
